@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Verónica Becerril| Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Conóceme un poco más</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/desarrollador.jpg" alt="Foto de Verónica Becerril">
+        <h1>Hola, Soy Verónica Becerril </h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.avif" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"> Conoce a Verónica Becerril </h2>
+        <p class="seccion-texto">Hola, como saben me llamo Verónica Becerril tengo 21 años estudiante de Ingeniería de Mecatrónica en prepa estudie la carrera de Programación por ello tengo conocimiento de HTML5, CSS, base de datos y SQL por el momento me estoy encaminando hacia la electrónica y construcción de dibujo asistido por computadora sin dejar a un lado lo que me trajo hasta aquí que es la programación.
+          Apasionada por todo lo que podemos ver a través de la tecnología, así como también de los proyectos de la NASA con la meta en la vida de ser una mujer reconocida por pertenecer a una carrera STEM.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Becada por Tecnolochicas Pro Microsoft y Santander adquiriendo conocimientos de HTML5, CSS y JavaScript realizando páginas web y aplicaciones en el mundo del emprendimiento contando con otras etiquetas acerca de la programación adquirida durante mi carrera técnica.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Netbeans</span>
+              <span class="badge text-bg-primary">SQL</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Hobbies</p>
+            <p>Tomar cursos acerca de los diferentes lenguajes de programación, leer libros de autoayuda, psicología y de amor, danza, cantar, escuchar rock, hacer ejercicio.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Leer</span>
+              <span class="badge text-bg-primary">Documentales</span>
+              <span class="badge text-bg-primary">Danza</span>
+              <span class="badge text-bg-primary">Cantar</span>
+              <span class="badge text-bg-primary">Escuchar Música</span>
+              <span class="badge text-bg-primary">Autoayuda</span>
+              <span class="badge text-bg-primary">Películas</span>
+              <span class="badge text-bg-primary">Series</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Estudiante de Tecnolochicas Pro de desarrollador Front-End y también de la Universidad "Instituto Tecnológico de Tlalnepantla" campus centro dónde me encuentro  incorporada a la carrera de Ingeniería Mecatrónica.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Páginas Web</span>
+              <span class="badge text-bg-primary">AutoCAD</span>
+              <span class="badge text-bg-primary">SolidWord</span>
+              <span class="badge text-bg-primary">Lagarto de corazón</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Veronica-Becerril10/Clon_de-_Google.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Axolotilandia</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Veronica-Becerril10/Axolotilandia.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Veronica-Becerril10" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de personas cercanas a mí...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Muy buen servicio y atención. Tomaron mi idea desde el primer momento, facilitaron la puesta en marcha del sitio y brindaron un alto nivel de servicio al cliente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Kevin</p>
+                <p class="cargo">Licenciado en Economía</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Me pareció un servicio eficiente que respondió rápida y adecuadamente. Me gustan las explicaciones específicas de lo que se requiere para construir y mantener el sitio y la eficiencia con la que realizaron los cambios solicitados. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Dulce</p>
+                <p class="cargo">Técnico en Enfermería</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">La atención es muy oportuna y minuciosa, saben llevarnos por el camino deseado y también nos ayudan a ser creativos y crear los conceptos tal como los imaginamos en un tiempo corto y preciso.
+                Nos ayudaron a traer la sensación técnica que buscábamos en nuestro negocio y presentarlo de la manera que buscábamos, impartiendo confianza y tranquilidad.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Karla</p>
+                <p class="cargo">Ingeniería en Tecnologías de la Información y Comunicaciones</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente4.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Desde el comienzo del proyecto, me sentí muy profesionalmente dirigido. Me han informado sobre las fases del proyecto. La comunicación fue muy fluida. Ninguna de nuestras solicitudes y sugerencias quedan sin respuesta. Esto dio como resultado un sitio web moderno y muy fácil de usar, listo para ayudarnos a administrar nuestro negocio.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jonathan</p>
+                <p class="cargo">Ingeniería Mecánica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente5.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Estuve muy atento, manejando bien situaciones de diferentes ideas de diseño. Muy comprensivo y tolerante, de buen comportamiento, dispuesto y capaz de escuchar sugerencias. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Hugo</p>
+                <p class="cargo">Ingeniería Electromécanica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente6.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Los conocimos a través de un cliente central y comenzamos a trabajar juntos para posicionar nuestro negocio. Desde el primer día demostraron cercanía y responsabilidad en su trabajo, ya que mantuvieron todo al día con todo lo necesario. ¡Apuesta segura! Excelentes profesionales y un excelente equipo de personas.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Yahir</p>
+                <p class="cargo">Ingeniería en Mecatrónica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente7.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Llevamos mucho tiempo trabajando con ellos y estamos muy satisfechos. Cuando tenemos dudas o queremos hacer algún cambio, contactan con nosotros inmediatamente para solucionar el problema. Desde que empezamos a trabajar con ellos hasta ahora, nunca han perdido el interés por nosotros y eso dice mucho de la empresa. Con todos estos problemas, siempre hay un poco de pérdida y tener gente que te ayude y cumpla con tus expectativas te da tranquilidad para que podamos dar lo mejor de nosotros en nuestro negocio.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jared</p>
+                <p class="cargo">Ingeniería en Mecatrónica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:azulmia100302@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Explota tus talentos, habilidades y fortalezas y haz que el mundo se siente y se dé cuenta.<br> Aprendamos juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Veronic13354473" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Veronica-Becerril10" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/veronica-becerril-2678bb283/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/veronica_yvb/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/veronica.becerril.98" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://web.telegram.org/a/#5096624288" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-telegram"></i>
+        </a>
+        <a href="mailto:azulmia100302@gmail.com        " target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Veronica Becerril (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
