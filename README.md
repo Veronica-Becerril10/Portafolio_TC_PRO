@@ -19,25 +19,25 @@ Primera parte de la página web:
 
 ![Primera parte de la página web](imagenes/screenshot1.png)
 
-Experiencia:
+Conóceme más:
 
 ![Experiencia](imagenes/screenshot2.png)
 
-Conóceme más:
+Experiencia:
 
 ![Experiencia](imagenes/screenshot3.png)
 
 Proyectos:
 
-![Proyectos](imagenes/screenshot3.png)
+![Proyectos](imagenes/screenshot4.png)
 
 Testimonios:
 
-![Testimonios](imagenes/screenshot4.png)
+![Testimonios](imagenes/screenshot5.png)
 
 Contacto:
 
-![Contacto](imagenes/screenshot5.png)
+![Contacto](imagenes/screenshot6.png)
 
 ## Tecnologías
 
